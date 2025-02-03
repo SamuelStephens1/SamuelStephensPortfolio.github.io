@@ -1,142 +1,184 @@
 <!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Samuel Stephens Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<html lang="en">
+<head>
+    <title>Samuel Stephens Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+        /* Wrapper Adjustments */
+        #wrapper {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Samuel Stephens</h1>
-						<p>Business Administration and Management Information Systems Major <br />
-						<a href="https://www.linkedin.com/in/samuel-stephens-ttu/">LinkedIn</a> | <a href="https://github.com/SamuelStephens1">GitHub</a><br /></p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+        /* Adjust the introduction section */
+        #intro {
+            text-align: center;
+            padding: 50px 20px;
+        }
 
-				<!-- Header -->
-					<header id="header">
-						<a class="logo">E-Portfolio</a>
-					</header>
+        /* Fix Heading Sizes */
+        h1, h2 {
+            font-size: clamp(24px, 4vw, 40px);
+        }
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-							<li><a href="generic.html">Resume</a></li>
-							<li><a href="elements.html">Certifications</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/samuel-stephens-ttu/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/SamuelStephens1" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+        /* Navigation Styles */
+        #nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 15px 0;
+        }
+        #nav ul {
+            display: flex;
+            gap: 15px;
+            list-style: none;
+            padding: 0;
+        }
 
-				<!-- Main -->
-					<div id="main">
+        /* Project Section */
+        .post.featured {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .post.featured img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="https://kentuckymachining.com/">Froedge Landing Page</h2>
-									<p style="text-align: center;">In this project I did a complete UI/UX front-end redesign as well as migrating to Server Side Rendering utilizing next.js </p>
-								</header>
-								<a href="https://kentuckymachining.com/" class="image main"><img src="images/Froedgelogo.svg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://kentuckymachining.com/" class="button large">VIEW PROJECT</a></li>
-								</ul>
-							</article>
+        /* General Image Styling */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<header class="major">
-											<h2><a href="https://public.tableau.com/app/profile/samuel.stephens4915/viz/CovidDataDashboard_16932552874830/Dashboard1?publish=yes">Covid-19 Data Exploration</h2>
-											<p style="text-align: center;">In this project we take raw Covid-19 data from a SQL server and then visualize it in Tableau to make it more usable for analysis </p>
-										</header>
-										<a href="https://public.tableau.com/app/profile/samuel.stephens4915/viz/CovidDataDashboard_16932552874830/Dashboard1?publish=yes" class="image main"><img src="images/TableauLogo.jpg" alt="" /></a>
-										<ul class="actions special">
-											<li><a href="https://public.tableau.com/app/profile/samuel.stephens4915/viz/CovidDataDashboard_16932552874830/Dashboard1?publish=yes" class="button large">VIEW PROJECT</a></li>
-										</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://github.com/SamuelStephens1/Portfolio-Projects/blob/main/PortfolioProjectCovid.sql">Covid Data SQL Queries</a></h2>
-									</header>
-									<a href="https://github.com/SamuelStephens1/Portfolio-Projects/blob/main/PortfolioProjectCovid.sql" class="image fit"><img src="images/Covid4k.jpg" alt="" /></a>
-									<p style="text-align: center;">This is the GitHub repository of SQL Server Queries used to make the visualizations in the Covid Data Tableau.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/SamuelStephens1/Portfolio-Projects/blob/main/PortfolioProjectCovid.sql" class="button">VIEW PROJECT</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://github.com/SamuelStephens1/PortWebsite">E-Portfolio Development</a></h2>
-									</header>
-									<a href="https://github.com/SamuelStephens1/PortWebsite" class="image fit"><img src="images/WebDev.jpg" alt="" /></a>
-									<p style="text-align: center;">This is the Github repository for the development of this website.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/SamuelStephens1/PortWebsite" class="button">View Project</a></li>
-									</ul>
-								</article>
-							</section>
+        /* Make buttons consistent */
+        .button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
 
-						<!-- Footer -->
-							<footer>
-								<h1 style="text-align: center">CONTACT ME</h1>
-							</footer>
+        /* Contact Section */
+        #footer {
+            text-align: center;
+            padding: 20px;
+            background: #f4f4f4;
+        }
 
-					</div>
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            #wrapper {
+                padding: 10px;
+            }
+            #nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body class="is-preload">
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section class="split contact">
-							<section class="alt">
-								<h3>Location</h3>
-								<p>Cookeville, TN 38501</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(931)536-2227</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">sestephens42@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/samuel-stephens-ttu/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/SamuelStephens1" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Samuel Stephens</li><li>Design Adaptation: <a href="https://html5up.net">of HTML5 UP</a></li></ul>
-					</div>
+        <!-- Intro -->
+        <div id="intro">
+            <h1>Samuel Stephens</h1>
+            <p>Business Administration and Management Information Systems Major <br />
+                <a href="https://www.linkedin.com/in/samuel-stephens-ttu/">LinkedIn</a> | 
+                <a href="https://github.com/SamuelStephens1">GitHub</a><br />
+            </p>
+            <ul class="actions">
+                <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+            </ul>
+        </div>
 
-			</div>
+        <!-- Header -->
+        <header id="header">
+            <a class="logo">E-Portfolio</a>
+        </header>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+        <!-- Navigation -->
+        <nav id="nav">
+            <ul class="links">
+                <li class="active"><a href="index.html">Projects</a></li>
+                <li><a href="generic.html">Resume</a></li>
+                <li><a href="elements.html">Certifications</a></li>
+            </ul>
+        </nav>
 
-	</body>
+        <!-- Main Content -->
+        <div id="main">
+
+            <!-- Featured Project -->
+            <article class="post featured">
+                <header class="major">
+                    <h2><a href="https://kentuckymachining.com/">Froedge Landing Page</a></h2>
+                    <p>Complete UI/UX front-end redesign and migration to Next.js for Server Side Rendering.</p>
+                </header>
+                <a href="https://kentuckymachining.com/" class="image main">
+                    <img src="images/Froedgelogo.svg" alt="Froedge Landing Page" />
+                </a>
+                <ul class="actions special">
+                    <li><a href="https://kentuckymachining.com/" class="button large">VIEW PROJECT</a></li>
+                </ul>
+            </article>
+
+            <!-- Other Projects -->
+            <section class="posts">
+                <article>
+                    <header>
+                        <h2><a href="https://public.tableau.com/app/profile/samuel.stephens4915/viz/CovidDataDashboard_16932552874830/Dashboard1?publish=yes">
+                            Covid-19 Data Exploration
+                        </a></h2>
+                    </header>
+                    <a href="https://public.tableau.com/app/profile/samuel.stephens4915/viz/CovidDataDashboard_16932552874830/Dashboard1?publish=yes" class="image main">
+                        <img src="images/TableauLogo.jpg" alt="Tableau Dashboard" />
+                    </a>
+                    <ul class="actions special">
+                        <li><a href="https://public.tableau.com/app/profile/samuel.stephens4915/viz/CovidDataDashboard_16932552874830/Dashboard1?publish=yes" class="button large">VIEW PROJECT</a></li>
+                    </ul>
+                </article>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <h1>CONTACT ME</h1>
+            <p>Cookeville, TN 38501</p>
+            <p><a href="tel:+19315362227">(931) 536-2227</a></p>
+            <p><a href="mailto:sestephens42@gmail.com">sestephens42@gmail.com</a></p>
+            <ul class="icons alt">
+                <li><a href="https://www.linkedin.com/in/samuel-stephens-ttu/" class="icon brands alt fa-linkedin"><span>LinkedIn</span></a></li>
+                <li><a href="https://github.com/SamuelStephens1" class="icon brands alt fa-github"><span>GitHub</span></a></li>
+            </ul>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
 </html>
